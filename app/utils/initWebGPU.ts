@@ -26,13 +26,6 @@ type Settings = {
     splitRatio: number;
 };
 
-type InitWebGPUParams = {
-    canvas: HTMLCanvasElement;
-    videoURL: string;
-    localVideo: Blob | null;
-    settings: Settings;
-};
-
 export async function initWebGPU(
     canvas: HTMLCanvasElement,
     videoURL: string,
@@ -78,7 +71,6 @@ export async function initWebGPU(
 
     const WIDTH = video.videoWidth || 1280;
     const HEIGHT = video.videoHeight || 720;
-    const { devicePixelRatio } = window;
 
     const videoFrameTexture: GPUTexture = device.createTexture({
         size: [WIDTH, HEIGHT, 1],
