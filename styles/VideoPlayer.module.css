@@ -1,0 +1,73 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+/* Добавляем класс для инпутов */
+.input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Добавляем класс для кнопок */
+.button {
+    padding: 8px 16px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #005bb5;
+}
+
+.playerWrapper {
+    position: relative;
+    padding-top: 56.25%;
+    /* Соотношение сторон 16:9 */
+}
+
+.playerWrapper>div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Дополнительные стили для плейлиста (если используете) */
+.playlist {
+    margin-bottom: 20px;
+}
+
+.playlist ul {
+    list-style: none;
+    padding: 0;
+}
+
+.playlist li {
+    margin-bottom: 10px;
+}
+
+.playlistButton {
+    padding: 8px 16px;
+    background-color: #eaeaea;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+.playlistButton:hover {
+    background-color: #d4d4d4;
+}

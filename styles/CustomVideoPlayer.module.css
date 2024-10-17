@@ -1,0 +1,51 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+
+    color: black;
+    /* Установите желаемый цвет */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button {
+    padding: 8px 16px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #005bb5;
+}
+
+.checkbox {
+    margin-left: 10px;
+    transform: scale(1.2);
+}
+
+.slider {
+    width: 100%;
+}
+
+.canvas {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border: 1px solid #ccc;
+}
